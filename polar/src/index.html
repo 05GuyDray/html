@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+    <style>
+        p {
+  background-image: href = "assets\polarbar.png";
+}
+        body {
+            margin: 0;
+            background-color: brown;
+        }
+
+        .article-class {
+            padding: 40px;
+
+         }
+
+        .flex-container {
+            display: flex;
+            background-color: black;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 100px;
+            padding: 0px 0px 20px 0px;
+            border: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            list-style-type: none;
+            border: solid;
+        }
+
+        .image-class {
+            width: 100px;
+            height: 100px;
+        }
+        .link:hover a { 
+        color: gray;
+        font-size: 26px;
+        }
+
+        .amngus:hover { 
+             cursor: pointer; 
+            color: salmon;
+        }
+        
+        a {
+            color: white;
+            font-size: 24px;
+            text-align: left;
+            border: 2px;
+        }
+    </style>
+    <title>Polar</title>
+    <link rel="icon" type="image/x-icon" href="assets\logoIcon.ico">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="flex-container">
+            <img class="image-class" src="assets\polarbar.png" alt="giga chad">
+            
+            <li class="link">
+                <a href="https://www.google.co.il/?hl=iw">Home</a>
+            </li>
+            <li class="link">
+                <a href="/print">New Post</a>
+            </li>
+            <li class="link">
+                <a href="/web">Discover</a>
+            </li>
+            <li class="link"  >
+                <a  href="/bio">Setting</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <article class="article-class">
+            <img src="assets\harryPotterMeme.jpg" alt="harry potter meme">
+            <p>
+                <b>McGonagol</b> Have a biscet Potter
+            </p>
+            <details class="amngus">
+                <summary>Comment</summary>
+                <p><b>Snape</b> I see </p>
+            </details>
+        </article>
+
+        <article class="article-class">
+            <img src="assets\bigBlackCorn.jpg" alt="sexy corn">
+            <p>
+                <b>Emanual</b> <bdi>היה לילה פרוע
+                </bdi>
+            </p>
+            <details class="amngus">
+                <summary>Comment</summary>
+                <p><b>Shir EL</b> בהצלחה </p>
+            </details>
+        </article>
+    </main>
+</body>
+
+</html>
